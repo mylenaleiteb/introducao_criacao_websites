@@ -1,9 +1,22 @@
 body{
     background-color: goldenrod;
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title{
     color: purple;
+}
+
+#title{
+    font-family: Verdana;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: overline underline;
+
 }
 
 .post_title{
@@ -31,6 +44,16 @@ body{
 }
 
 .photo{
-    border-radius: 70px;
-    border: 10px solid black;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.contact_list{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.contact_list li a{
+    color: cornflowerblue;
+    text-decoration: none;
 }
