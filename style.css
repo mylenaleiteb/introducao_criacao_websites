@@ -1,7 +1,9 @@
 body{
     background-color: goldenrod;
     font-family: Verdana;
-}
+    width: 900px;
+    margin: auto;
+    }
 
 #title, .subtitle, .post_title{
     color: purple;
@@ -32,21 +34,23 @@ a{
     border: 3px solid black;
     margin-bottom: 15px;
     border-radius: 20px;
-}
+    }
 
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-align: center;
     }
 
 .post_image{
     margin-bottom: 15px;
+    width: 50%;
 }
 
 .photo{
     border-radius: 50px;
     border: 5px solid black;
-}
+    }
 
 .contact_list{
     list-style-type: none;
